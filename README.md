@@ -1,9 +1,3 @@
----
-noteId: "e2aa2ec0aeaa11ecb4abedd6075b359d"
-tags: []
-
----
-
 # Functional Automation Testing 
 
 # LogIn<br />

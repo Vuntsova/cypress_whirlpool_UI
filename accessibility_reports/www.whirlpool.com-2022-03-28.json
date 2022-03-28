@@ -1,0 +1,2908 @@
+ 
+[
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      ".invisible-svgs > svg[width=\"82px\"][height=\"78px\"][viewBox=\"0 0 82 78\"] > defs > path"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: path-1",
+    "source": "<path d=\"M105.688,96.0547497 L70.851,30.7422497 C68.783,26.8592497 63.217,26.8592497 61.1435,30.7422497 L26.312,96.0547497 C24.3595,99.7177497 27.016,104.14525 31.1685,104.14525 L100.837,104.14525 C104.984,104.14525 107.6405,99.7177497 105.688,96.0547497 Z M66,93.1452497 C62.964,93.1452497 60.5,90.6812497 60.5,87.6452497 C60.5,84.6092497 62.964,82.1452497 66,82.1452497 C69.036,82.1452497 71.5,84.6092497 71.5,87.6452497 C71.5,90.6812497 69.036,93.1452497 66,93.1452497 Z M71.5,76.6452497 L60.5,76.6452497 L60.5,54.6452497 L71.5,54.6452497 L71.5,76.6452497 Z\" id=\"path-1\">",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      ".invisible-svgs > svg[width=\"82px\"][height=\"78px\"][viewBox=\"0 0 82 78\"] > g[stroke=\"none\"][stroke-width=\"1\"][fill-rule=\"evenodd\"]"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: Account",
+    "source": "<g id=\"Account\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      ".invisible-svgs > svg[width=\"82px\"][height=\"78px\"][viewBox=\"0 0 82 78\"] > g[stroke=\"none\"][stroke-width=\"1\"][fill-rule=\"evenodd\"] > g"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: KA--Account--My-Subscriptions--Change-Frequency--Error-Modal-",
+    "source": "<g id=\"KA--Account--My-Subscriptions--Change-Frequency--Error-Modal-\" transform=\"translate(-679.000000, -311.000000)\">",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      ".invisible-svgs > svg[width=\"82px\"][height=\"78px\"][viewBox=\"0 0 82 78\"] > g[stroke=\"none\"][stroke-width=\"1\"][fill-rule=\"evenodd\"] > g > g"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: Icon/Error",
+    "source": "<g id=\"Icon/Error\" transform=\"translate(654.000000, 284.000000)\">",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      ".invisible-svgs > svg[width=\"82px\"][height=\"78px\"][viewBox=\"0 0 82 78\"] > g[stroke=\"none\"][stroke-width=\"1\"][fill-rule=\"evenodd\"] > g > g > mask"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: mask-2",
+    "source": "<mask id=\"mask-2\" fill=\"white\">\n                    <use xlink:href=\"#path-1\"></use>\n                </mask>",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      ".invisible-svgs > svg[width=\"82px\"][height=\"78px\"][viewBox=\"0 0 82 78\"] > g[stroke=\"none\"][stroke-width=\"1\"][fill-rule=\"evenodd\"] > g > g > g[fill-rule=\"nonzero\"]"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: Mask",
+    "source": "<g id=\"Mask\" fill-rule=\"nonzero\"></g>",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      ".invisible-svgs > svg[width=\"82px\"][height=\"78px\"][viewBox=\"0 0 82 78\"] > g[stroke=\"none\"][stroke-width=\"1\"][fill-rule=\"evenodd\"] > g > g > g[mask=\"url(#mask-2)\"][fill=\"#C41230\"][fill-rule=\"evenodd\"]"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: Mixin/Fill/Primary",
+    "source": "<g id=\"Mixin/Fill/Primary\" mask=\"url(#mask-2)\" fill=\"#C41230\" fill-rule=\"evenodd\">\n                    <rect id=\"Box\" x=\"0\" y=\"0\" width=\"132\" height=\"132\"></rect>\n                </g>",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      ".invisible-svgs > svg[width=\"82px\"][height=\"78px\"][viewBox=\"0 0 82 78\"] > g[stroke=\"none\"][stroke-width=\"1\"][fill-rule=\"evenodd\"] > g > g > g[mask=\"url(#mask-2)\"][fill=\"#C41230\"][fill-rule=\"evenodd\"] > rect[width=\"132\"][height=\"132\"]"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: Box",
+    "source": "<rect id=\"Box\" x=\"0\" y=\"0\" width=\"132\" height=\"132\"></rect>",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      ".utility-nav__link-wrapper:nth-child(7) > div[data-chat-endpoint=\"CS_Bot\"][data-chat-enabled=\"true\"][data-site-name=\"Whirlpool\"]"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: chatConfig",
+    "source": "<div id=\"chatConfig\" data-chat-endpoint=\"CS_Bot\" data-chat-enabled=\"true\" data-api-path=\"/content/whirlpoolv2/en_us.chat.translation.json\" data-chat-logo-url=\"/content/dam/business-unit/whirlpool/global-assets/images/whirlpool_logo.png\" data-site-name=\"Whirlpool\" data-site-lang=\"en_US\" data-country-code=\"US\" data-region=\"live\" data-chat-api-key=\"f736e703-28b4-49ef-ad35-b60ba5eaa040\" data-chat-url-production=\"https://api-use2.digital.genesyscloud.com/nexus/v3/chat/sessions\">",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      "#subscription-Group > path:nth-child(1)"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: subscription-Path",
+    "source": "<path d=\"M1.898054,10.060334 C1.723148,10.23524 1.567676,10.384234 1.412204,10.533228 C1.276166,10.65631 1.140128,10.78587 0.997612,10.889518 C0.770882,11.057946 0.479372,11.0126 0.25912,10.792348 C0.038868,10.572096 -0.012956,10.287064 0.174906,10.066812 C0.602454,9.568006 1.049436,9.088634 1.48994,8.609262 C1.677802,8.408444 1.885098,8.214104 2.085916,8.026242 C2.39686,7.734732 2.5912,7.715298 2.921578,7.993852 C3.394472,8.395488 3.847932,8.823036 4.294914,9.250584 C4.528122,9.470836 4.741896,9.717 4.962148,9.950208 C5.162966,10.17046 5.078752,10.507316 4.903846,10.695178 C4.690072,10.921908 4.398562,10.98021 4.171832,10.805304 C3.8868,10.59153 3.621202,10.345366 3.349126,10.118636 C3.310258,10.086246 3.27139,10.047378 3.232522,10.014988 C3.239,10.254674 3.239,10.481404 3.251956,10.701656 C3.439818,14.400594 6.205924,17.87928 10.319454,18.72142 C11.135682,18.889848 11.971344,18.896326 12.79405,18.831546 C14.407072,18.708464 15.864622,18.144878 17.1667,17.192612 C18.42991,16.272736 19.362742,15.080784 20.036454,13.675058 C20.094756,13.551976 20.153058,13.435372 20.224316,13.318768 C20.379788,13.08556 20.69721,12.98839 20.930418,13.08556 C21.202494,13.202164 21.383878,13.487196 21.299664,13.759272 C21.196016,14.096128 21.059978,14.432984 20.89155,14.743928 C19.440478,17.42582 17.237958,19.155446 14.271034,19.868026 C9.97612,20.898028 5.499822,18.935194 3.297302,15.106696 C2.532898,13.778706 2.098872,12.353546 1.982268,10.831216 C1.956356,10.59153 1.923966,10.345366 1.898054,10.060334 Z\" id=\"subscription-Path\">",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      "#add-to-cart-success-Avatar\\/Fill---Default > g:nth-child(2)"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: add-to-cart-success-Mask",
+    "source": "<g id=\"add-to-cart-success-Mask\"></g>",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      "g[fill=\"#008800\"]"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: add-to-cart-success-Group",
+    "source": "<g id=\"add-to-cart-success-Group\" mask=\"url(#add-to-cart-success-mask-2)\" fill=\"#008800\">\n                    <g id=\"add-to-cart-success-\u21b3-\ud83c\udfa8BG\">\n                        <rect id=\"add-to-cart-success-Box\" x=\"0\" y=\"0\" width=\"32\" height=\"32\"></rect>\n                    </g>\n                </g>",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      "#add-to-cart-success-\u21b3-\ud83c\udfa8BG > rect[width=\"32\"][height=\"32\"]"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: add-to-cart-success-Box",
+    "source": "<rect id=\"add-to-cart-success-Box\" x=\"0\" y=\"0\" width=\"32\" height=\"32\"></rect>",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      "#add-to-cart-error-Avatar\\/Fill---Default > g:nth-child(2)"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: add-to-cart-error-Mask",
+    "source": "<g id=\"add-to-cart-error-Mask\"></g>",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      "g[fill=\"#C80A33\"]"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: add-to-cart-error-Group",
+    "source": "<g id=\"add-to-cart-error-Group\" mask=\"url(#add-to-cart-error-mask-2)\" fill=\"#C80A33\">",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      "#add-to-cart-error-\u21b3-\ud83c\udfa8BG > rect[width=\"32\"][height=\"32\"]"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: add-to-cart-error-Box",
+    "source": "<rect id=\"add-to-cart-error-Box\" x=\"0\" y=\"0\" width=\"32\" height=\"32\"></rect>",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "duplicate-id",
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id?application=AxeChrome",
+    "impact": "minor",
+    "isManual": false,
+    "selector": [
+      ".sr-content"
+    ],
+    "summary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: sr-compare",
+    "source": "<div aria-live=\"assertive\" id=\"sr-compare\" class=\"sr-content\">Item added to the compare list, you can find it at the end of this page</div>",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "listitem",
+    "description": "Ensures <li> elements are used semantically",
+    "help": "<li> elements must be contained in a <ul> or <ol>",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/listitem?application=AxeChrome",
+    "impact": "serious",
+    "isManual": false,
+    "selector": [
+      ".hidden-slider"
+    ],
+    "summary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+    "source": "<li class=\"hidden-slider\" style=\"width: 194px; left: 384.5px;\"></li>",
+    "tags": [
+      "cat.structure",
+      "wcag2a",
+      "wcag131"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "aria-allowed-attr",
+    "description": "Ensures ARIA attributes are allowed for an element's role",
+    "help": "Elements must only use allowed ARIA attributes",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/aria-allowed-attr?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#tabs-8691d68c02-item-be634dfeab"
+    ],
+    "summary": "Fix all of the following:\n  aria-labelledby attribute is not well supported on a div with no valid role attribute.",
+    "source": "<div id=\"tabs-8691d68c02-item-be634dfeab\" aria-labelledby=\"tabs-8691d68c02-item-be634dfeab\" tabindex=\"0\" class=\"carousel-component__item slick-slide slick-current slick-active\" data-slick-index=\"2\" aria-hidden=\"false\" style=\"width: 1170px;\">",
+    "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "aria-valid-attr-value",
+    "description": "Ensures all ARIA attributes have valid values",
+    "help": "ARIA attributes must conform to valid values",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/aria-valid-attr-value?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#slick-slide10"
+    ],
+    "summary": "Fix all of the following:\n  ARIA attribute element ID does not exist on the page: aria-labelledby=\"tabs-ff1e5a53ef-item-33a971657f\"",
+    "source": "<div id=\"slick-slide10\" aria-labelledby=\"tabs-ff1e5a53ef-item-33a971657f\" tabindex=\"0\" class=\"carousel-component__item slick-slide slick-current slick-active\" data-slick-index=\"0\" aria-hidden=\"false\" role=\"tabpanel\" aria-describedby=\"slick-slide-control10\" style=\"width: 1440px;\">",
+    "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-857f0e4535 > p > a[href$=\"registration.html\"]"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<a title=\"Sign in to see unlocked pricing.\" href=\"/registration.html\" tabindex=\"0\"><img alt=\"An open lock icon\" src=\"/content/dam/business-unit/whirlpool/en-us/marketing-content/site-assets/page-content/landing-pages/KitchenAid_VP_Icon_02.svg\"> <b>Sign in</b> and save</a>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-857f0e4535 > p > a[href$=\"registration.html\"] > b"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<b>Sign in</b>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-172121270a > p > a[href$=\"financing.html\"]"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<a title=\"0% APR financing available with Affirm \u2014 See details.\" href=\"/financing.html\" tabindex=\"-1\">",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-172121270a > p > a[href$=\"financing.html\"] > b"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<b>0% APR financing</b>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-172121270a > p > a[href$=\"financing.html\"] > sup"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<sup>3</sup>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-cloned.carousel-component__item[data-slick-index=\"4\"] > .richText.text > .pt1.pb1.platform-components-rich-text--theme-01 > p > a"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<a title=\"Free delivery on orders $399+ \u2014 See details.\" href=\"/delivery-and-installation.html\" tabindex=\"-1\">",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-cloned.carousel-component__item[data-slick-index=\"4\"] > .richText.text > .pt1.pb1.platform-components-rich-text--theme-01 > p > a > b"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<b>Free delivery</b>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-cloned.carousel-component__item[data-slick-index=\"4\"] > .richText.text > .pt1.pb1.platform-components-rich-text--theme-01 > p > a > sup"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<sup>1</sup>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-cloned.carousel-component__item[data-slick-index=\"5\"] > .richText.text > .pt1.pb1.platform-components-rich-text--theme-01 > p > a[title=\"View our return policy.\"][href$=\"return-policy.html\"]"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<a title=\"View our return policy.\" href=\"/return-policy.html\" tabindex=\"-1\"><img alt=\"A box icon\" src=\"/content/dam/business-unit/whirlpool/en-us/marketing-content/site-assets/page-content/landing-pages/KitchenAid_VP_Icon_03.svg\"> <b>Free returns</b> on major appliances<sup>2</sup></a>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-cloned.carousel-component__item[data-slick-index=\"5\"] > .richText.text > .pt1.pb1.platform-components-rich-text--theme-01 > p > a[title=\"View our return policy.\"][href$=\"return-policy.html\"] > b"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<b>Free returns</b>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-cloned.carousel-component__item[data-slick-index=\"5\"] > .richText.text > .pt1.pb1.platform-components-rich-text--theme-01 > p > a[title=\"View our return policy.\"][href$=\"return-policy.html\"] > sup"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<sup>2</sup>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-cloned.carousel-component__item[data-slick-index=\"6\"] > .richText.text > .pt1.pb1.platform-components-rich-text--theme-01 > p > a[href$=\"registration.html\"]"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<a title=\"Sign in to see unlocked pricing.\" href=\"/registration.html\" tabindex=\"-1\"><img alt=\"An open lock icon\" src=\"/content/dam/business-unit/whirlpool/en-us/marketing-content/site-assets/page-content/landing-pages/KitchenAid_VP_Icon_02.svg\"> <b>Sign in</b> and save</a>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-cloned.carousel-component__item[data-slick-index=\"6\"] > .richText.text > .pt1.pb1.platform-components-rich-text--theme-01 > p > a[href$=\"registration.html\"] > b"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<b>Sign in</b>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-cloned.carousel-component__item[data-slick-index=\"7\"] > .richText.text > .pt1.pb1.platform-components-rich-text--theme-01 > p > a[href$=\"financing.html\"]"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<a title=\"0% APR financing available with Affirm \u2014 See details.\" href=\"/financing.html\" tabindex=\"-1\">",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-cloned.carousel-component__item[data-slick-index=\"7\"] > .richText.text > .pt1.pb1.platform-components-rich-text--theme-01 > p > a[href$=\"financing.html\"] > b"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<b>0% APR financing</b>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-cloned.carousel-component__item[data-slick-index=\"7\"] > .richText.text > .pt1.pb1.platform-components-rich-text--theme-01 > p > a[href$=\"financing.html\"] > sup"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<sup>3</sup>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#slick-slide-control10"
+    ],
+    "summary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+    "source": "<button type=\"button\" role=\"tab\" id=\"slick-slide-control10\" aria-controls=\"slick-slide10\" aria-label=\"1 of 2\" tabindex=\"0\" aria-selected=\"true\">1</button>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#slick-slide-control11"
+    ],
+    "summary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+    "source": "<button type=\"button\" role=\"tab\" id=\"slick-slide-control11\" aria-controls=\"slick-slide11\" aria-label=\"2 of 2\" tabindex=\"-1\">2</button>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".slick-current[href$=\"refrigeration.html\"][data-slick-index=\"0\"] > .visual-nav-card > .visual-nav-content.badge-medium > cite"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<cite>Refrigerators</cite>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".pc-carousel-item[href$=\"ranges.html\"][data-slick-index=\"1\"] > .visual-nav-card > .visual-nav-content.badge-medium > cite"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<cite>Ranges</cite>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".pc-carousel-item.pa0[data-slick-index=\"2\"] > .visual-nav-card > .visual-nav-content.badge-medium > cite"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<cite>Dishwashers</cite>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".pc-carousel-item.pa0[data-slick-index=\"3\"] > .visual-nav-card > .visual-nav-content.badge-medium > cite"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<cite>Microwaves</cite>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".pc-carousel-item.pa0[data-slick-index=\"4\"] > .visual-nav-card > .visual-nav-content.badge-medium > cite"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<cite>Wall Ovens</cite>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".pc-carousel-item[href$=\"cooktops.html\"][data-slick-index=\"5\"] > .visual-nav-card > .visual-nav-content.badge-medium > cite"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<cite>Cooktops</cite>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".pc-carousel-item[href$=\"washers.html\"][data-slick-index=\"6\"] > .visual-nav-card > .visual-nav-content.badge-medium > cite"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<cite>Washers</cite>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".pc-carousel-item[data-slick-index=\"7\"][href$=\"dryers.html\"] > .visual-nav-card > .visual-nav-content.badge-medium > cite"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<cite>Dryers</cite>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "a[data-slick-index=\"8\"] > .visual-nav-card > .visual-nav-content.badge-medium > cite"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<cite>Sales</cite>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "a[data-slick-index=\"9\"] > .visual-nav-card > .visual-nav-content.badge-medium > cite"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<cite>Owners</cite>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".buttons.aem-GridColumn--default--12.aem-GridColumn:nth-child(8) > .platform-components-buttons--theme-01.justify-center.platform-components-buttons > .platform-components-buttons__button--primary-dark.platform-components-buttons__button[target=\"_self\"]"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+    "source": "<a href=\"/laundry/2-in-1-removable-agitator-washer.html\" style=\"cursor: pointer;\" target=\"_self\" title=\"Learn more about the industry-first 2 in 1 Removable Agitator from Whirlpool\" class=\"platform-components-buttons__button platform-components-buttons__button--primary-dark \">",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".platform-components-buttons__button--tertiary-dark"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+    "source": "<a href=\"/laundry/see-all.html?plp=wed8127lw%20%20WGD8127LW%20WTW8127LW%3Arelevance&amp;plpView=list\" style=\"cursor: pointer;\" target=\"_self\" title=\"Shop all Whirlpool\u00ae 2 in 1 Washers\" class=\"platform-components-buttons__button platform-components-buttons__button--tertiary-dark platform-components-buttons__button--icon-right \">",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-088b00b90f > h2"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+    "source": "<h2 style=\"text-align: center;\">Innovations made to keep the day moving</h2>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-088b00b90f > p"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+    "source": "<p style=\"text-align: center;\">Explore kitchen innovations that help make cooking and cleaning easy and efficient.</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1863349494 > .platform-components-content-card__left-text--sm.platform-components-content-card__bottom-alignment--lg.platform-components-content-card__center-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__width-sm--large.platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .header-three"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<h3 class=\"platform-components-content-card__main-header header-three\">Appliance Finder</h3>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1863349494 > .platform-components-content-card__left-text--sm.platform-components-content-card__bottom-alignment--lg.platform-components-content-card__center-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__width-sm--large.platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .platform-components-content-card__body-copy > p"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<p>Not sure which kitchen appliance you need? Get help with our Appliance Finder.</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1863349494 > .platform-components-content-card__left-text--sm.platform-components-content-card__bottom-alignment--lg.platform-components-content-card__center-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__width-sm--large.platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .platform-components-content-card__button-container > .platform-components-content-card__button--tertiary.withicon[href$=\"appliance-finder.html\"] > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<span class=\"button-text\">Help Me Choose</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1235232079 > .platform-components-content-card__left-text--sm.platform-components-content-card__bottom-alignment--lg.platform-components-content-card__center-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__width-sm--large.platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .header-three"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<h3 class=\"platform-components-content-card__main-header header-three\">Kitchen tips &amp; tricks</h3>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1235232079 > .platform-components-content-card__left-text--sm.platform-components-content-card__bottom-alignment--lg.platform-components-content-card__center-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__width-sm--large.platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .platform-components-content-card__body-copy > p"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<p>Never miss a beat and get kitchen appliance information, home hacks and how-tos with our blog.</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".platform-components-content-card__button--tertiary.withicon[href$=\"kitchen.html\"] > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<span class=\"button-text\">Read More</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1596948289 > .platform-components-content-card__left-text--sm.platform-components-content-card__bottom-alignment--lg.platform-components-content-card__center-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__width-sm--large.platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .header-three"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<h3 class=\"platform-components-content-card__main-header header-three\">Appliance Finder</h3>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1596948289 > .platform-components-content-card__left-text--sm.platform-components-content-card__bottom-alignment--lg.platform-components-content-card__center-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__width-sm--large.platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .platform-components-content-card__body-copy > p"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<p>Not sure which laundry appliance you need? Get help with our Appliance Finder.</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1596948289 > .platform-components-content-card__left-text--sm.platform-components-content-card__bottom-alignment--lg.platform-components-content-card__center-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__width-sm--large.platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .platform-components-content-card__button-container > .platform-components-content-card__button--tertiary.withicon[href$=\"appliance-finder.html\"] > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<span class=\"button-text\">Help Me Choose</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1390432582 > .platform-components-content-card__left-text--sm.platform-components-content-card__bottom-alignment--lg.platform-components-content-card__center-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__width-sm--large.platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .header-three"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<h3 class=\"platform-components-content-card__main-header header-three\">Laundry tips &amp; tricks</h3>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1390432582 > .platform-components-content-card__left-text--sm.platform-components-content-card__bottom-alignment--lg.platform-components-content-card__center-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__width-sm--large.platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .platform-components-content-card__body-copy > p"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<p>Never miss a beat and get laundry appliance information, home hacks and how-tos with our blog.</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".platform-components-content-card__button--tertiary.withicon[href$=\"washers-and-dryers.html\"] > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<span class=\"button-text\">Read More</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1512490305 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > div:nth-child(1) > .header-four"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<h3 class=\"platform-components-content-card__main-header header-four\">Product registration</h3>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1512490305 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > div:nth-child(1) > .platform-components-content-card__body-copy > p"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<p>Register your appliances to add them to the Whirlpool<sup>\u00ae</sup> Owner Center and access exclusive customer care content.</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1512490305 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > div:nth-child(1) > .platform-components-content-card__body-copy > p > sup"
+    ],
+    "summary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+    "source": "<sup>\u00ae</sup>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1512490305 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .platform-components-content-card__button-container > .platform-components-content-card__button--tertiary.withicon.platform-components-content-card__button > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<span class=\"button-text\">Sign In</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-137688384 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > div:nth-child(1) > .header-four"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<h3 class=\"platform-components-content-card__main-header header-four\">Product help</h3>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-137688384 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > div:nth-child(1) > .platform-components-content-card__body-copy > p"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<p>Find answers to frequently asked questions, search by topic, look up error codes and more.</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-137688384 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .platform-components-content-card__button-container > .platform-components-content-card__button--tertiary.withicon.platform-components-content-card__button > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<span class=\"button-text\">Get Help</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-81270687 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > div:nth-child(1) > .header-four"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<h3 class=\"platform-components-content-card__main-header header-four\">Replacement parts</h3>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-81270687 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > div:nth-child(1) > .platform-components-content-card__body-copy > p"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<p>Order all the right replacement parts and accessories for Whirlpool<sup>\u00ae</sup> Appliance repairs.</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-81270687 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > div:nth-child(1) > .platform-components-content-card__body-copy > p > sup"
+    ],
+    "summary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+    "source": "<sup>\u00ae</sup>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".platform-components-content-card__button--tertiary.withicon[href$=\"accessories.html\"] > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<span class=\"button-text\">Find Parts</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-2053029754 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > div:nth-child(1) > .header-four"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<h3 class=\"platform-components-content-card__main-header header-four\">Repair or replace</h3>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-2053029754 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > div:nth-child(1) > .platform-components-content-card__body-copy > p"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<p>Make an appointment from the preferred list of Whirlpool service providers for maintenance and repairs on your appliances.</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".platform-components-content-card__button--tertiary.withicon[href$=\"repair-or-replace.html\"] > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+    "source": "<span class=\"button-text\">Get Service</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-1f15a8231c > h3"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<h3 style=\"text-align: center;\">Why buy from Whirlpool.com</h3>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1648880936 > .platform-components-content-card__top-alignment--lg.platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .header-six.platform-components-content-card__main-header"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<p class=\"platform-components-content-card__main-header header-six\">Free delivery on orders $399+\u00b9</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1648880936 > .platform-components-content-card__top-alignment--lg.platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .platform-components-content-card__button-container > .platform-components-content-card__button--tertiary.withicon.platform-components-content-card__button > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<span class=\"button-text\">Learn More</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1591220141 > .platform-components-content-card__top-alignment--lg.platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .header-six.platform-components-content-card__main-header"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<p class=\"platform-components-content-card__main-header header-six\">Free returns on major appliances\u00b2</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".platform-components-content-card__button--tertiary[title=\"View our return policy.\"][href$=\"return-policy.html\"] > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<span class=\"button-text\">Learn More</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1561601676 > .platform-components-content-card__top-alignment--lg.platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .header-six.platform-components-content-card__main-header"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<p class=\"platform-components-content-card__main-header header-six\">Sign in and unlock lower prices</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".platform-components-content-card__button--tertiary.withicon[href$=\"registration.html\"] > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<span class=\"button-text\">Sign In</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1746610580 > .platform-components-content-card__top-alignment--lg.platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .header-six.platform-components-content-card__main-header"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<p class=\"platform-components-content-card__main-header header-six\">0% APR financing available\u00b3</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".platform-components-content-card__button--tertiary.withicon[href$=\"financing.html\"] > .button-text"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<span class=\"button-text\">Learn More</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-cf8dddb91c > h2 > .header-three"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<span class=\"header-three\">Whirlpool<sup>\u00ae</sup> Products and Appliances help you care for your family</span>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".header-three > sup"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<sup>\u00ae</sup>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-cf8dddb91c > p:nth-child(2)"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<p>From getting stains out of favorite shirts to baking cookies and everything in between, Whirlpool<sup>\u00ae</sup> Home Appliances are there to help you keep the day moving. Our thoughtfully designed products and appliance suites are made with you in mind.</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "p:nth-child(2) > sup"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<sup>\u00ae</sup>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-cf8dddb91c > p:nth-child(3)"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "p:nth-child(3) > a[href$=\"hoods.html\"]"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<a href=\"/kitchen/cooking/hoods.html\" title=\"Learn more about Whirlpool\u00ae Vent Hoods\">vent hood</a>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "p:nth-child(3) > sup"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<sup>\u00ae</sup>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#richText-cf8dddb91c > p:nth-child(4)"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<p>Browse the full line of major appliances from Whirlpool brand to find the right fit for your family.</p>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".disclaimer:nth-child(1)"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<li class=\"disclaimer\">",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".disclaimer:nth-child(2)"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<li class=\"disclaimer\">See our <a title=\"Review our return policy\" href=\"/return-policy.html\">return policy</a> for details.</li>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "a[title=\"Review our return policy\"]"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<a title=\"Review our return policy\" href=\"/return-policy.html\">return policy</a>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".disclaimer:nth-child(3)"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<li class=\"disclaimer\">",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "a[href$=\"lenders\"]"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<a title=\"Learn more about financing with Affirm\" href=\"https://www.affirm.com/lenders\">affirm.com/lenders</a>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".disclaimer:nth-child(4)"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<li class=\"disclaimer\">Appliance must be set to remote enable. WiFi &amp; App Required. Features subject to change. Details and privacy info at <a title=\"Learn more about Whirlpool\u00ae Connected Appliances\" href=\"/home-innovations/connected-appliances/connect.html\">whirlpool.com/connect</a>.</li>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "color-contrast",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".disclaimer:nth-child(4) > a"
+    ],
+    "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+    "source": "<a title=\"Learn more about Whirlpool\u00ae Connected Appliances\" href=\"/home-innovations/connected-appliances/connect.html\">whirlpool.com/connect</a>",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "identical-links-same-purpose",
+    "description": "Ensure that links with the same accessible name serve a similar purpose",
+    "help": "Links with the same name must have a similar purpose",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/identical-links-same-purpose?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".primary-link_href[aria-label=\"Kitchen\"][href=\"javascript:void(0)\"]"
+    ],
+    "summary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous.",
+    "source": "<a href=\"javascript:void(0)\" class=\"primary-link_href\" tabindex=\"0\" data-link=\"/content/whirlpoolv2/en_us/kitchen.html\" aria-label=\"Kitchen\" data-ol-has-click-handler=\"\">\n                                Kitchen\n                            </a>",
+    "tags": [
+      "cat.semantics",
+      "wcag2aaa",
+      "wcag249"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "identical-links-same-purpose",
+    "description": "Ensure that links with the same accessible name serve a similar purpose",
+    "help": "Links with the same name must have a similar purpose",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/identical-links-same-purpose?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".primary-link_href[aria-label=\"Parts & Accessories\"][href=\"javascript:void(0)\"]"
+    ],
+    "summary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous.",
+    "source": "<a href=\"javascript:void(0)\" class=\"primary-link_href\" tabindex=\"0\" data-link=\"/content/whirlpoolv2/en_us/accessories.html\" aria-label=\"Parts &amp; Accessories\" data-ol-has-click-handler=\"\">\n                                Parts &amp; Accessories\n                            </a>",
+    "tags": [
+      "cat.semantics",
+      "wcag2aaa",
+      "wcag249"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "identical-links-same-purpose",
+    "description": "Ensure that links with the same accessible name serve a similar purpose",
+    "help": "Links with the same name must have a similar purpose",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/identical-links-same-purpose?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      ".platform-components-content-card__button--tertiary.withicon[href$=\"kitchen.html\"]"
+    ],
+    "summary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous.",
+    "source": "<a href=\"/blog/kitchen.html\" style=\"cursor: pointer;\" target=\"_self\" class=\"platform-components-content-card__button platform-components-content-card__button--tertiary dark\n            withicon-right withicon \" title=\"Get kitchen tips and tricks from our blog: Home Heartbeat\">",
+    "tags": [
+      "cat.semantics",
+      "wcag2aaa",
+      "wcag249"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "identical-links-same-purpose",
+    "description": "Ensure that links with the same accessible name serve a similar purpose",
+    "help": "Links with the same name must have a similar purpose",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/identical-links-same-purpose?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1512490305 > .platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg.platform-components-content-card__space-alignment--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .platform-components-content-card__button-container > .platform-components-content-card__button--tertiary.withicon.platform-components-content-card__button"
+    ],
+    "summary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous.",
+    "source": "<a href=\"https://register.whirlpool.com/en-us/registration\" style=\"cursor: pointer;\" target=\"_self\" class=\"platform-components-content-card__button platform-components-content-card__button--tertiary dark\n            withicon-right withicon \" title=\"Register your Whirlpool\u00ae Appliance\">",
+    "tags": [
+      "cat.semantics",
+      "wcag2aaa",
+      "wcag249"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "identical-links-same-purpose",
+    "description": "Ensure that links with the same accessible name serve a similar purpose",
+    "help": "Links with the same name must have a similar purpose",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/identical-links-same-purpose?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "#platform-components-content-card-1648880936 > .platform-components-content-card__top-alignment--lg.platform-components-content-card__left-alignment--lg.platform-components-content-card__left-text--lg > .platform-components-content-card__full-width-container.image-contained-padding.platform-components-content-card__content > .platform-components-content-card__row-container.platform-components-content-card__width-lg--auto > .platform-components-content-card__button-container > .platform-components-content-card__button--tertiary.withicon.platform-components-content-card__button"
+    ],
+    "summary": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous.",
+    "source": "<a href=\"/delivery-and-installation.html\" style=\"cursor: pointer;\" target=\"_self\" class=\"platform-components-content-card__button platform-components-content-card__button--tertiary dark\n            withicon-right withicon \" title=\"Free delivery on orders $399+ \u2014 See details.\">",
+    "tags": [
+      "cat.semantics",
+      "wcag2aaa",
+      "wcag249"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "video-caption",
+    "description": "Ensures <video> elements have captions",
+    "help": "<video> elements must have captions",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/video-caption?application=AxeChrome",
+    "needsReview": true,
+    "isManual": false,
+    "selector": [
+      "video"
+    ],
+    "summary": "Fix all of the following:\n  Check that captions is available for the element",
+    "source": "<video autoplay=\"\" loop=\"\" muted=\"\" playsinline=\"\">\n            <source src=\"/content/dam/business-unit/whirlpool/en-us/marketing-content/site-assets/page-content/landing-pages/WPA-29114_2%20in%201%20Clip.mp4\" type=\"video/mp4\">\n        </video>",
+    "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag122",
+      "section508",
+      "section508.22.a"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "meta-viewport",
+    "description": "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming",
+    "help": "Zooming and scaling should not be disabled",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/meta-viewport?application=AxeChrome",
+    "impact": "critical",
+    "isManual": false,
+    "selector": [
+      ".header.aem-GridColumn--default--12.aem-GridColumn > meta[name=\"viewport\"]"
+    ],
+    "summary": "Fix any of the following:\n  user-scalable=no on <meta> tag disables zooming on mobile devices",
+    "source": "<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no\">",
+    "tags": [
+      "cat.sensory-and-visual-cues",
+      "best-practice",
+      "ACT"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      "#tabs-8691d68c02-item-be634dfeab"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div id=\"tabs-8691d68c02-item-be634dfeab\" aria-labelledby=\"tabs-8691d68c02-item-be634dfeab\" tabindex=\"0\" class=\"carousel-component__item slick-slide slick-current slick-active\" data-slick-index=\"2\" aria-hidden=\"false\" style=\"width: 1170px;\">",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".utility-nav__container--anonymous > .utility-nav__link-wrapper--location.utility-nav__link-wrapper > .utility-nav__link[href=\"javascript:void(0);\"]"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<a href=\"javascript:void(0);\" class=\"utility-nav__link\">\n                Your location:&nbsp;<span class=\"location-data\">60169</span>\n            </a>",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".utility-nav__container--anonymous > .utility-nav__link-wrapper:nth-child(2)"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div class=\"utility-nav__link-wrapper\">\n            \n            <a href=\"/track-my-order.html\" class=\"utility-nav__link\">Order Status</a>\n        </div>",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".utility-nav__container--anonymous > .utility-nav__link-wrapper:nth-child(3)"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div class=\"utility-nav__link-wrapper\">\n            \n            <a href=\"/where-to-buy.html\" class=\"utility-nav__link\">Find a Store</a>\n        </div>",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".utility-nav__container--anonymous > .utility-nav__link-wrapper:nth-child(4)"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div class=\"utility-nav__link-wrapper\">\n            \n            <a href=\"/services/contact-us.html\" class=\"utility-nav__link\">Contact Us</a>\n        </div>",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".utility-nav__container--anonymous > .utility-nav__link-wrapper:nth-child(5)"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div class=\"utility-nav__link-wrapper\">\n            \n            <a href=\"https://producthelp.whirlpool.com/\" class=\"utility-nav__link\">Help</a>\n        </div>",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".g-col-md-5"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div class=\"g-col g-col-md-5\">",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".footer-socialmedia-icons"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div class=\"footer-socialmedia-icons\">",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".sr-only"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<h2 class=\"sr-only\">Footer</h2>",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".footer-accordion-tab.footer-accordion-col:nth-child(1) > .desktop-footer-heading.footer-accordion-title"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<h3 class=\"footer-accordion-title desktop-footer-heading\">Service &amp; Support</h3>",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".footer-accordion-tab.footer-accordion-col:nth-child(1) > .footer-accordion-tab-content"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div class=\"footer-accordion-tab-content\">",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".footer-accordion-tab.footer-accordion-col:nth-child(2) > .desktop-footer-heading.footer-accordion-title"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<h3 class=\"footer-accordion-title desktop-footer-heading\">Products</h3>",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".footer-accordion-tab.footer-accordion-col:nth-child(2) > .footer-accordion-tab-content"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div class=\"footer-accordion-tab-content\">",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".footer-accordion-tab.footer-accordion-col:nth-child(3) > .desktop-footer-heading.footer-accordion-title"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<h3 class=\"footer-accordion-title desktop-footer-heading\">Parts, Accessories &amp; Other Products</h3>",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".footer-accordion-tab.footer-accordion-col:nth-child(3) > .footer-accordion-tab-content"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div class=\"footer-accordion-tab-content\">",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".footer-accordion-last > .desktop-footer-heading.footer-accordion-title"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<h3 class=\"footer-accordion-title desktop-footer-heading\">About Whirlpool Corporation</h3>",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".footer-accordion-last > .footer-accordion-tab-content"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div class=\"footer-accordion-tab-content\">",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  },
+  {
+    "ruleId": "region",
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/region?application=AxeChrome",
+    "impact": "moderate",
+    "isManual": false,
+    "selector": [
+      ".footer-implinks-box"
+    ],
+    "summary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+    "source": "<div class=\"footer-implinks-box\">",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "igt": "",
+    "shareURL": "",
+    "createdAt": "2022-03-28T18:19:33.580Z",
+    "testUrl": "https://www.whirlpool.com/",
+    "foundBy": "vuntsova@aol.com"
+  }
+]

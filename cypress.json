@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://whirlpool.com/",
+  "env": {
+    "first_name": "Emiliya",
+    "last_name": "Vuntsova",
+    "emailAddress": "fake9s5487@email.com",
+    "user_name": "jack",
+    "password": "123123123!EFfe",
+    "invalid_password": "dadsahd!23456Ever@",
+    "chromeWebSecurity": false
+  }
+}

@@ -1,5 +1,10 @@
-# cypress_whirlpool_UI
-Functional Automation Testing 
+---
+noteId: "e2aa2ec0aeaa11ecb4abedd6075b359d"
+tags: []
+
+---
+
+# Functional Automation Testing 
 
 # LogIn<br />
 Verify if a user will be able to login with a valid username and valid password.	Positive<br />

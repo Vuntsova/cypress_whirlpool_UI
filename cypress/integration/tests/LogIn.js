@@ -18,7 +18,6 @@ describe('Log In', () => {
 
   //Verify if a user will be able to login with a valid username and valid password. Positive Tets.
   it.only('Successfully logging in with a valid username and valid password', () => {
-    cy.checkA11y();
     cy.get('#headerSigninEmail').type(Cypress.env('emailAddress'));
     cy.get('#modalSigninPassword').type(Cypress.env('password'), {
       log: false,

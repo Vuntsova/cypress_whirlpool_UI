@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
 describe('Log In', () => {
+  
   beforeEach(() => {
     cy.visit('');
 

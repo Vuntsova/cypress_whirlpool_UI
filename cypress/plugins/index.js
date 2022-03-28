@@ -17,6 +17,11 @@
  */
 // eslint-disable-next-line no-unused-vars
 module.exports = (on, config) => {
+  //workaround cypress.env.json file that wasn't overwrting cypress.json
+  if (config.hasOwnProperty('env')) {
+    config = config.env;
+  }
+  return config;
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
 }

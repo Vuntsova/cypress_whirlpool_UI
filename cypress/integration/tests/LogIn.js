@@ -3,7 +3,7 @@
 describe('Log In', () => {
   beforeEach(() => {
     cy.visit('');
-
+    cy.injectAxe();
     // Wait 2.5 sec and check for popup and if it shows, close it:
     cy.wait(2500);
     cy.get('body').then((body) => {
@@ -17,7 +17,8 @@ describe('Log In', () => {
   });
 
   //Verify if a user will be able to login with a valid username and valid password. Positive Tets.
-  it('Successfully logging in with a valid username and valid password', () => {
+  it.only('Successfully logging in with a valid username and valid password', () => {
+    cy.checkA11y();
     cy.get('#headerSigninEmail').type(Cypress.env('emailAddress'));
     cy.get('#modalSigninPassword').type(Cypress.env('password'), {
       log: false,

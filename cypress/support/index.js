@@ -21,3 +21,5 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 });
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+//AXE
+import 'cypress-axe';

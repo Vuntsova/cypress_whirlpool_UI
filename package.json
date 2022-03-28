@@ -9,6 +9,8 @@
   "author": "Emiliya Vuntsova",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.5.2"
+    "axe-core": "^4.4.1",
+    "cypress": "^9.5.2",
+    "cypress-axe": "^0.14.0"
   }
 }

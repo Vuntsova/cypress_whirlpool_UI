@@ -4,7 +4,7 @@ describe('Log In', () => {
   beforeEach(() => {
     cy.visit('');
 
-    // Wait 2.3 sec and check for popup and if it shows, close it:
+    // Wait 2.5 sec and check for popup and if it shows, close it:
     cy.wait(2500);
     cy.get('body').then((body) => {
       if (body.find('.bgImage').length > 0) {

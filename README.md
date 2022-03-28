@@ -1,9 +1,3 @@
----
-noteId: "e2aa2ec0aeaa11ecb4abedd6075b359d"
-tags: []
-
----
-
 # Functional Automation Testing 
 
 # LogIn<br />
@@ -12,8 +6,7 @@ Verify if a user cannot login with a valid username and an invalid password.	Neg
 Verify the login page for both, when the field is blank and Submit button is clicked.	Negative<br />
 Verify the ‘Forgot Password’ functionality.	Positive<br />
 Verify the messages for invalid login.	Positive<br />
-Verify the ‘Remember Me’ functionality.	Positive<br />
-Verify if the data in password field is either visible as asterisk or bullet signs.	Positive<br />
+Verify if the data in password field is visible as bullet signs.	Positive<br />
 Verify if a user is able to login with a new password only after he/she has changed the password.	Positive<br />
 Verify if the login page allows to log in simultaneously with different credentials in a different browser.	Positive<br />
 Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.	Positive<br />

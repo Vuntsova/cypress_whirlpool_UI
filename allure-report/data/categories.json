@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: expected '<li.breadcrumbs-list-item.breadcrumbs-list-item-last.active>' not to be 'visible'",
+      "children" : [ {
+        "name" : "Checks if the \"Enter\" key of the keyboard is working",
+        "uid" : "86b1f599e5a775d0",
+        "parentUid" : "6594bad11fb45ab4b3fbe22ab80be9a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649097794413,
+          "stop" : 1649097827731,
+          "duration" : 33318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6594bad11fb45ab4b3fbe22ab80be9a6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

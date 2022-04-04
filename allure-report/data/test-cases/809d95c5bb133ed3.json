@@ -1,19 +1,19 @@
 {
-  "uid" : "a00aa18f908659e8",
+  "uid" : "809d95c5bb133ed3",
   "name" : "successfully signing in",
   "fullName" : "successfully signing in",
   "historyId" : "b9405582c913c023f5464d47ca7230a6",
   "time" : {
-    "start" : 1649030948752,
-    "stop" : 1649030968211,
-    "duration" : 19459
+    "start" : 1649099709921,
+    "stop" : 1649099724674,
+    "duration" : 14753
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "visit /registration.html -> 301: https://www.whirlpool.com/registration.html",
       "time" : {
-        "start" : 1649030949430,
-        "stop" : 1649030960057,
-        "duration" : 10627
+        "start" : 1649099710412,
+        "stop" : 1649099717589,
+        "duration" : 7177
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,9 +36,9 @@
     }, {
       "name" : "GET 200 https://cdn.cookielaw.org/consent/fbd8c34f-e90b-43e9-9ab1-543aab83f925/fbd8c34f-e90b-43e9-9ab1-543aab83f925.json",
       "time" : {
-        "start" : 1649030960052,
-        "stop" : 1649030960053,
-        "duration" : 1
+        "start" : 1649099717584,
+        "stop" : 1649099717584,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,8 +51,8 @@
     }, {
       "name" : "GET 200 https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
       "time" : {
-        "start" : 1649030960053,
-        "stop" : 1649030960053,
+        "start" : 1649099717585,
+        "stop" : 1649099717585,
         "duration" : 0
       },
       "status" : "passed",
@@ -64,10 +64,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get https://dpm.demdex.net/id?d_visid_ver=5.0.1&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=64D46F3055E485647F000101@AdobeOrg&d_nsid=0&ts=1649030951631",
+      "name" : "get https://dpm.demdex.net/id?d_visid_ver=5.0.1&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=64D46F3055E485647F000101@AdobeOrg&d_nsid=0&ts=1649099711976",
       "time" : {
-        "start" : 1649030960053,
-        "stop" : 1649030960053,
+        "start" : 1649099717585,
+        "stop" : 1649099717585,
         "duration" : 0
       },
       "status" : "passed",
@@ -81,8 +81,8 @@
     }, {
       "name" : "GET 200 https://www.whirlpool.com/libs/granite/csrf/token.json",
       "time" : {
-        "start" : 1649030960053,
-        "stop" : 1649030960053,
+        "start" : 1649099717585,
+        "stop" : 1649099717585,
         "duration" : 0
       },
       "status" : "passed",
@@ -94,10 +94,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 200 https://dpm.demdex.net/id?d_visid_ver=5.0.1&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=64D46F3055E485647F000101%40AdobeOrg&d_nsid=0&ts=1649030951631",
+      "name" : "GET 200 https://dpm.demdex.net/id?d_visid_ver=5.0.1&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=64D46F3055E485647F000101%40AdobeOrg&d_nsid=0&ts=1649099711976",
       "time" : {
-        "start" : 1649030960053,
-        "stop" : 1649030960053,
+        "start" : 1649099717585,
+        "stop" : 1649099717585,
         "duration" : 0
       },
       "status" : "passed",
@@ -109,10 +109,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get https://whirlpool.sc.omtrdc.net/id?d_visid_ver=5.0.1&d_fieldgroup=A&mcorgid=64D46F3055E485647F000101@AdobeOrg&mid=84692517358951381452910157812292506106&ts=1649030951826",
+      "name" : "get https://whirlpool.sc.omtrdc.net/id?d_visid_ver=5.0.1&d_fieldgroup=A&mcorgid=64D46F3055E485647F000101@AdobeOrg&mid=66853744475938366340069795774251004313&ts=1649099712167",
       "time" : {
-        "start" : 1649030960054,
-        "stop" : 1649030960054,
+        "start" : 1649099717585,
+        "stop" : 1649099717585,
         "duration" : 0
       },
       "status" : "passed",
@@ -124,25 +124,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 200 https://whirlpool.sc.omtrdc.net/id?d_visid_ver=5.0.1&d_fieldgroup=A&mcorgid=64D46F3055E485647F000101%40AdobeOrg&mid=84692517358951381452910157812292506106&ts=1649030951826",
+      "name" : "GET https://whirlpool.sc.omtrdc.net/id?d_visid_ver=5.0.1&d_fieldgroup=A&mcorgid=64D46F3055E485647F000101%40AdobeOrg&mid=66853744475938366340069795774251004313&ts=1649099712167",
       "time" : {
-        "start" : 1649030960054,
-        "stop" : 1649030960054,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "uncaught exception TypeError: Cannot read properties of undefined (reading 'container')",
-      "time" : {
-        "start" : 1649030960054,
-        "stop" : 1649030960054,
+        "start" : 1649099717586,
+        "stop" : 1649099717586,
         "duration" : 0
       },
       "status" : "passed",
@@ -156,8 +141,8 @@
     }, {
       "name" : "GET https://apps.bazaarvoice.com/splitTests.json",
       "time" : {
-        "start" : 1649030960054,
-        "stop" : 1649030960054,
+        "start" : 1649099717586,
+        "stop" : 1649099717586,
         "duration" : 0
       },
       "status" : "passed",
@@ -169,10 +154,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET https://cdn.cookielaw.org/consent/fbd8c34f-e90b-43e9-9ab1-543aab83f925/3c053854-970a-4643-8095-4fa027a840f4/en.json",
+      "name" : "uncaught exception TypeError: Cannot read properties of undefined (reading 'container')",
       "time" : {
-        "start" : 1649030960054,
-        "stop" : 1649030960054,
+        "start" : 1649099717586,
+        "stop" : 1649099717586,
         "duration" : 0
       },
       "status" : "passed",
@@ -184,10 +169,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 200 https://www.whirlpool.com/ws/v2/whirlpool-us/integrationConfig?_=1649030951769",
+      "name" : "GET 200 https://www.whirlpool.com/ws/v2/whirlpool-us/integrationConfig?_=1649099712112",
       "time" : {
-        "start" : 1649030960054,
-        "stop" : 1649030960054,
+        "start" : 1649099717586,
+        "stop" : 1649099717586,
         "duration" : 0
       },
       "status" : "passed",
@@ -201,8 +186,8 @@
     }, {
       "name" : "GET 200 https://api.ipify.org/",
       "time" : {
-        "start" : 1649030960055,
-        "stop" : 1649030960055,
+        "start" : 1649099717586,
+        "stop" : 1649099717586,
         "duration" : 0
       },
       "status" : "passed",
@@ -214,10 +199,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET https://whirlpool.tt.omtrdc.net/m2/whirlpool/mbox/json?mbox=target-global-mbox&mboxSession=a45ea975990f445fa0fb2f1451890f36&mboxPC=&mboxPage=00b05712d30840d285f885390dc20489&mboxRid=482eaeece8b24000bea6a9f6d8a385c0&mboxVersion=1.8.0&mboxCount=1&mboxTime=1649012952765&mboxHost=www.whirlpool.com&mboxURL=https://www.whirlpool.com/registration.html&mboxReferrer=&browserHeight=660&browserWidth=985&browserTimeOffset=-300&screenHeight=900&screenWidth=1440&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=Intel Iris Pro OpenGL Engine&at_property=c6bf8267-c8cf-7550-33e7-3d2e5fa28a29&loginStatus=guest&pageTemplate=whirlpool/v2/components/structure/standardtemplate&pageType=&commerceLDC=&commerceRDC=&cartCountGlobal=&majorsCommerceEnabled=&mboxMCSDID=0EAC8AC4EB2A154F-2C042C94229F1FF6&vst.trk=whirlpool.sc.omtrdc.net&vst.trks=whirlpool.sc.omtrdc.net&mboxMCGVID=84692517358951381452910157812292506106&mboxAAMB=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&mboxMCGLH=7",
+      "name" : "GET https://whirlpool.tt.omtrdc.net/m2/whirlpool/mbox/json?mbox=target-global-mbox&mboxSession=ae3c5780d6bd4a68a4aea5840f7b295d&mboxPC=&mboxPage=8488b06bf7954bdca611690a670529a0&mboxRid=7ab3dee3b1c8421ab43106ed808909b6&mboxVersion=1.8.0&mboxCount=1&mboxTime=1649081712879&mboxHost=www.whirlpool.com&mboxURL=https://www.whirlpool.com/registration.html&mboxReferrer=&browserHeight=660&browserWidth=985&browserTimeOffset=-300&screenHeight=900&screenWidth=1440&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=Intel Iris Pro OpenGL Engine&at_property=c6bf8267-c8cf-7550-33e7-3d2e5fa28a29&loginStatus=guest&pageTemplate=whirlpool/v2/components/structure/standardtemplate&pageType=&commerceLDC=&commerceRDC=&cartCountGlobal=&majorsCommerceEnabled=&mboxMCSDID=728358D665492A58-6E081D260531B99D&vst.trk=whirlpool.sc.omtrdc.net&vst.trks=whirlpool.sc.omtrdc.net&mboxMCGVID=66853744475938366340069795774251004313&mboxAAMB=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&mboxMCGLH=7",
       "time" : {
-        "start" : 1649030960055,
-        "stop" : 1649030960055,
+        "start" : 1649099717587,
+        "stop" : 1649099717587,
         "duration" : 0
       },
       "status" : "passed",
@@ -229,10 +214,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 200 https://www.whirlpool.com/content/whirlpoolv2/en_us/registration.user.location.json?ts=1649030952879",
+      "name" : "GET 200 https://www.whirlpool.com/content/whirlpoolv2/en_us/registration.user.location.json?ts=1649099713000",
       "time" : {
-        "start" : 1649030960055,
-        "stop" : 1649030960055,
+        "start" : 1649099717587,
+        "stop" : 1649099717587,
         "duration" : 0
       },
       "status" : "passed",
@@ -246,8 +231,8 @@
     }, {
       "name" : "GET 200 https://www.whirlpool.com/content/whirlpoolv2/en_us/registration.professional.discount.group.json",
       "time" : {
-        "start" : 1649030960055,
-        "stop" : 1649030960055,
+        "start" : 1649099717587,
+        "stop" : 1649099717587,
         "duration" : 0
       },
       "status" : "passed",
@@ -259,10 +244,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 200 https://whirlpool.tt.omtrdc.net/m2/whirlpool/mbox/json?mbox=target-global-mbox&mboxSession=a45ea975990f445fa0fb2f1451890f36&mboxPC=&mboxPage=00b05712d30840d285f885390dc20489&mboxRid=482eaeece8b24000bea6a9f6d8a385c0&mboxVersion=1.8.0&mboxCount=1&mboxTime=1649012952765&mboxHost=www.whirlpool.com&mboxURL=https%3A%2F%2Fwww.whirlpool.com%2Fregistration.html&mboxReferrer=&browserHeight=660&browserWidth=985&browserTimeOffset=-300&screenHeight=900&screenWidth=1440&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=Intel%20Iris%20Pro%20OpenGL%20Engine&at_property=c6bf8267-c8cf-7550-33e7-3d2e5fa28a29&loginStatus=guest&pageTemplate=whirlpool%2Fv2%2Fcomponents%2Fstructure%2Fstandardtemplate&pageType=&commerceLDC=&commerceRDC=&cartCountGlobal=&majorsCommerceEnabled=&mboxMCSDID=0EAC8AC4EB2A154F-2C042C94229F1FF6&vst.trk=whirlpool.sc.omtrdc.net&vst.trks=whirlpool.sc.omtrdc.net&mboxMCGVID=84692517358951381452910157812292506106&mboxAAMB=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&mboxMCGLH=7",
+      "name" : "GET 200 https://whirlpool.tt.omtrdc.net/m2/whirlpool/mbox/json?mbox=target-global-mbox&mboxSession=ae3c5780d6bd4a68a4aea5840f7b295d&mboxPC=&mboxPage=8488b06bf7954bdca611690a670529a0&mboxRid=7ab3dee3b1c8421ab43106ed808909b6&mboxVersion=1.8.0&mboxCount=1&mboxTime=1649081712879&mboxHost=www.whirlpool.com&mboxURL=https%3A%2F%2Fwww.whirlpool.com%2Fregistration.html&mboxReferrer=&browserHeight=660&browserWidth=985&browserTimeOffset=-300&screenHeight=900&screenWidth=1440&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=Intel%20Iris%20Pro%20OpenGL%20Engine&at_property=c6bf8267-c8cf-7550-33e7-3d2e5fa28a29&loginStatus=guest&pageTemplate=whirlpool%2Fv2%2Fcomponents%2Fstructure%2Fstandardtemplate&pageType=&commerceLDC=&commerceRDC=&cartCountGlobal=&majorsCommerceEnabled=&mboxMCSDID=728358D665492A58-6E081D260531B99D&vst.trk=whirlpool.sc.omtrdc.net&vst.trks=whirlpool.sc.omtrdc.net&mboxMCGVID=66853744475938366340069795774251004313&mboxAAMB=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&mboxMCGLH=7",
       "time" : {
-        "start" : 1649030960055,
-        "stop" : 1649030960055,
+        "start" : 1649099717587,
+        "stop" : 1649099717587,
         "duration" : 0
       },
       "status" : "passed",
@@ -274,10 +259,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 204 https://c.go-mpulse.net/api/config.json?key=GSHY6-UT6MQ-D9JKC-HYNDL-7RU7K&d=www.whirlpool.com&t=5496770&v=1.720.0&sl=0&si=3e8535dd-f246-4224-92dc-7d67bd3abe97-r9sgfb&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=330416",
+      "name" : "GET 200 https://cdn.cookielaw.org/consent/fbd8c34f-e90b-43e9-9ab1-543aab83f925/3c053854-970a-4643-8095-4fa027a840f4/en.json",
       "time" : {
-        "start" : 1649030960055,
-        "stop" : 1649030960055,
+        "start" : 1649099717587,
+        "stop" : 1649099717587,
         "duration" : 0
       },
       "status" : "passed",
@@ -289,10 +274,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST https://usecag.apm.whirlpool.com:9999/bf/3a11b03f-898c-4f96-a68c-8d2127f6c841?type=js3&sn=v_4_srv_-2D22_sn_CI9BF7AHQU53D2EV7N6DNRS0UO3GFKVV&svrid=-22&flavor=cors&vi=TKPWCHBIBIRIFROLURFLMHVPMIHOAUHP-0&modifiedSince=1648163649300&rf=https://www.whirlpool.com/registration.html&bp=3&app=8940938db397b1e7&crc=2912826382&en=0xvoc7b3&end=1",
+      "name" : "POST https://usecag.apm.whirlpool.com:9999/bf/3a11b03f-898c-4f96-a68c-8d2127f6c841?type=js3&sn=v_4_srv_-2D40_sn_7LP8J77IAO5MOUA1D24H3TM1DNAI80QR&svrid=-40&flavor=cors&vi=NKAVKJUPBRHHWPSBKMGOMICJDCNSBKWV-0&modifiedSince=1649097508486&rf=https://www.whirlpool.com/registration.html&bp=3&app=8940938db397b1e7&crc=22242787&en=0xvoc7b3&end=1",
       "time" : {
-        "start" : 1649030960055,
-        "stop" : 1649030960055,
+        "start" : 1649099717587,
+        "stop" : 1649099717587,
         "duration" : 0
       },
       "status" : "passed",
@@ -304,25 +289,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET https://cdn.cookielaw.org/scripttemplates/6.21.0/assets/otFlat.json",
+      "name" : "GET https://www.sjwoe.com/policy",
       "time" : {
-        "start" : 1649030960055,
-        "stop" : 1649030960056,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "GET https://cdn.cookielaw.org/scripttemplates/6.21.0/assets/v2/otPcPanel.json",
-      "time" : {
-        "start" : 1649030960056,
-        "stop" : 1649030960056,
+        "start" : 1649099717587,
+        "stop" : 1649099717587,
         "duration" : 0
       },
       "status" : "passed",
@@ -334,10 +304,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET https://cdn.cookielaw.org/scripttemplates/6.21.0/assets/otCommonStyles.css",
+      "name" : "GET https://whirlpool.tt.omtrdc.net/m2/whirlpool/mbox/json?mbox=leadgenmodal&mboxSession=ae3c5780d6bd4a68a4aea5840f7b295d&mboxPC=ae3c5780d6bd4a68a4aea5840f7b295d.34_0&mboxPage=8488b06bf7954bdca611690a670529a0&mboxRid=e4973f6914564e9f9470dba10a2a0001&mboxVersion=1.8.0&mboxCount=2&mboxTime=1649081714367&mboxHost=www.whirlpool.com&mboxURL=https://www.whirlpool.com/registration.html&mboxReferrer=&browserHeight=660&browserWidth=985&browserTimeOffset=-300&screenHeight=900&screenWidth=1440&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=Intel Iris Pro OpenGL Engine&at_property=c6bf8267-c8cf-7550-33e7-3d2e5fa28a29&loginStatus=guest&pageTemplate=whirlpool/v2/components/structure/standardtemplate&pageType=&commerceLDC=&commerceRDC=&cartCountGlobal=&majorsCommerceEnabled=&LeadGenModalShow=&mboxMCSDID=728358D665492A58-6E081D260531B99D&vst.trk=whirlpool.sc.omtrdc.net&vst.trks=whirlpool.sc.omtrdc.net&mboxMCGVID=66853744475938366340069795774251004313&mboxAAMB=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&mboxMCGLH=7",
       "time" : {
-        "start" : 1649030960056,
-        "stop" : 1649030960056,
+        "start" : 1649099717588,
+        "stop" : 1649099717588,
         "duration" : 0
       },
       "status" : "passed",
@@ -349,10 +319,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST 200 https://usecag.apm.whirlpool.com:9999/bf/3a11b03f-898c-4f96-a68c-8d2127f6c841?type=js3&sn=v_4_srv_-2D22_sn_CI9BF7AHQU53D2EV7N6DNRS0UO3GFKVV&svrid=-22&flavor=cors&vi=TKPWCHBIBIRIFROLURFLMHVPMIHOAUHP-0&modifiedSince=1648163649300&rf=https%3A%2F%2Fwww.whirlpool.com%2Fregistration.html&bp=3&app=8940938db397b1e7&crc=2912826382&en=0xvoc7b3&end=1",
+      "name" : "GET https://c.go-mpulse.net/api/config.json?key=GSHY6-UT6MQ-D9JKC-HYNDL-7RU7K&d=www.whirlpool.com&t=5496999&v=1.720.0&sl=0&si=df62d29f-dbcd-4c77-8d55-977e01127bc2-r9txhb&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=330416",
       "time" : {
-        "start" : 1649030960056,
-        "stop" : 1649030960056,
+        "start" : 1649099717588,
+        "stop" : 1649099717588,
         "duration" : 0
       },
       "status" : "passed",
@@ -364,10 +334,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 200 https://www.sjwoe.com/policy",
+      "name" : "GET 200 https://whirlpool.tt.omtrdc.net/m2/whirlpool/mbox/json?mbox=leadgenmodal&mboxSession=ae3c5780d6bd4a68a4aea5840f7b295d&mboxPC=ae3c5780d6bd4a68a4aea5840f7b295d.34_0&mboxPage=8488b06bf7954bdca611690a670529a0&mboxRid=e4973f6914564e9f9470dba10a2a0001&mboxVersion=1.8.0&mboxCount=2&mboxTime=1649081714367&mboxHost=www.whirlpool.com&mboxURL=https%3A%2F%2Fwww.whirlpool.com%2Fregistration.html&mboxReferrer=&browserHeight=660&browserWidth=985&browserTimeOffset=-300&screenHeight=900&screenWidth=1440&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=Intel%20Iris%20Pro%20OpenGL%20Engine&at_property=c6bf8267-c8cf-7550-33e7-3d2e5fa28a29&loginStatus=guest&pageTemplate=whirlpool%2Fv2%2Fcomponents%2Fstructure%2Fstandardtemplate&pageType=&commerceLDC=&commerceRDC=&cartCountGlobal=&majorsCommerceEnabled=&LeadGenModalShow=&mboxMCSDID=728358D665492A58-6E081D260531B99D&vst.trk=whirlpool.sc.omtrdc.net&vst.trks=whirlpool.sc.omtrdc.net&mboxMCGVID=66853744475938366340069795774251004313&mboxAAMB=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&mboxMCGLH=7",
       "time" : {
-        "start" : 1649030960056,
-        "stop" : 1649030960056,
+        "start" : 1649099717588,
+        "stop" : 1649099717588,
         "duration" : 0
       },
       "status" : "passed",
@@ -379,10 +349,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET https://whirlpool.tt.omtrdc.net/m2/whirlpool/mbox/json?mbox=leadgenmodal&mboxSession=a45ea975990f445fa0fb2f1451890f36&mboxPC=a45ea975990f445fa0fb2f1451890f36.34_0&mboxPage=00b05712d30840d285f885390dc20489&mboxRid=94e5870a703f48029a6c690d69aed977&mboxVersion=1.8.0&mboxCount=2&mboxTime=1649012954679&mboxHost=www.whirlpool.com&mboxURL=https://www.whirlpool.com/registration.html&mboxReferrer=&browserHeight=660&browserWidth=985&browserTimeOffset=-300&screenHeight=900&screenWidth=1440&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=Intel Iris Pro OpenGL Engine&at_property=c6bf8267-c8cf-7550-33e7-3d2e5fa28a29&loginStatus=guest&pageTemplate=whirlpool/v2/components/structure/standardtemplate&pageType=&commerceLDC=&commerceRDC=&cartCountGlobal=&majorsCommerceEnabled=&LeadGenModalShow=&mboxMCSDID=0EAC8AC4EB2A154F-2C042C94229F1FF6&vst.trk=whirlpool.sc.omtrdc.net&vst.trks=whirlpool.sc.omtrdc.net&mboxMCGVID=84692517358951381452910157812292506106&mboxAAMB=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&mboxMCGLH=7",
+      "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.21.0/assets/otFlat.json",
       "time" : {
-        "start" : 1649030960056,
-        "stop" : 1649030960056,
+        "start" : 1649099717588,
+        "stop" : 1649099717588,
         "duration" : 0
       },
       "status" : "passed",
@@ -394,10 +364,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 200 https://whirlpool.tt.omtrdc.net/m2/whirlpool/mbox/json?mbox=leadgenmodal&mboxSession=a45ea975990f445fa0fb2f1451890f36&mboxPC=a45ea975990f445fa0fb2f1451890f36.34_0&mboxPage=00b05712d30840d285f885390dc20489&mboxRid=94e5870a703f48029a6c690d69aed977&mboxVersion=1.8.0&mboxCount=2&mboxTime=1649012954679&mboxHost=www.whirlpool.com&mboxURL=https%3A%2F%2Fwww.whirlpool.com%2Fregistration.html&mboxReferrer=&browserHeight=660&browserWidth=985&browserTimeOffset=-300&screenHeight=900&screenWidth=1440&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=Intel%20Iris%20Pro%20OpenGL%20Engine&at_property=c6bf8267-c8cf-7550-33e7-3d2e5fa28a29&loginStatus=guest&pageTemplate=whirlpool%2Fv2%2Fcomponents%2Fstructure%2Fstandardtemplate&pageType=&commerceLDC=&commerceRDC=&cartCountGlobal=&majorsCommerceEnabled=&LeadGenModalShow=&mboxMCSDID=0EAC8AC4EB2A154F-2C042C94229F1FF6&vst.trk=whirlpool.sc.omtrdc.net&vst.trks=whirlpool.sc.omtrdc.net&mboxMCGVID=84692517358951381452910157812292506106&mboxAAMB=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&mboxMCGLH=7",
+      "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.21.0/assets/v2/otPcPanel.json",
       "time" : {
-        "start" : 1649030960056,
-        "stop" : 1649030960056,
+        "start" : 1649099717588,
+        "stop" : 1649099717588,
         "duration" : 0
       },
       "status" : "passed",
@@ -409,10 +379,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST https://www.mczbf.com/11074/pageInfo",
+      "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.21.0/assets/otCommonStyles.css",
       "time" : {
-        "start" : 1649030960056,
-        "stop" : 1649030960056,
+        "start" : 1649099717588,
+        "stop" : 1649099717588,
         "duration" : 0
       },
       "status" : "passed",
@@ -424,10 +394,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET https://ct.pinterest.com/user/?tid=2613027671457&pd={\"em\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}&cb=1649030956025",
+      "name" : "GET https://ct.pinterest.com/user/?tid=2613027671457&pd={\"em\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}&cb=1649099715413",
       "time" : {
-        "start" : 1649030960057,
-        "stop" : 1649030960057,
+        "start" : 1649099717589,
+        "stop" : 1649099717589,
         "duration" : 0
       },
       "status" : "passed",
@@ -439,10 +409,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 200 https://ct.pinterest.com/user/?tid=2613027671457&pd=%7B%22em%22%3A%22e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855%22%7D&cb=1649030956025",
+      "name" : "GET 200 https://ct.pinterest.com/user/?tid=2613027671457&pd=%7B%22em%22%3A%22e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855%22%7D&cb=1649099715413",
       "time" : {
-        "start" : 1649030960057,
-        "stop" : 1649030960057,
+        "start" : 1649099717589,
+        "stop" : 1649099717589,
         "duration" : 0
       },
       "status" : "passed",
@@ -454,25 +424,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST https://api.blackcrow.ai/v1/events/view?",
+      "name" : "GET 200 https://pixel.mtrcs.samba.tv/v2/tag/whirlpool/homepage/load?sa_name=all-p570&sa_referrer=https%3A%2F%2Fwww.whirlpool.com%2F&sa_fullurl=https%3A%2F%2F8240768.fls.doubleclick.net%2Factivityi%3Bdc_pre%3DCKrh0JWP-_YCFV_D9gIdB7UBLg%3Bsrc%3D8240768%3Btype%3Dwhirl0%3Bcat%3Dwhp_d0%3Bord%3D1%3Bnum%3D7616048820320%3Bgtm%3D2od3u0%3Bauiddc%3D1706894756.1649099714%3Bu16%3DDSK%3B~oref%3Dhttps%253A%252F%252Fwww.whirlpool.com%252Fregistration.html%3F&c=1649099716722",
       "time" : {
-        "start" : 1649030960057,
-        "stop" : 1649030960057,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "GET 200 https://pixel.mtrcs.samba.tv/v2/tag/whirlpool/homepage/load?sa_name=all-p570&sa_referrer=https%3A%2F%2Fwww.whirlpool.com%2F&sa_fullurl=https%3A%2F%2F8240768.fls.doubleclick.net%2Factivityi%3Bdc_pre%3DCOqyo4KP-fYCFT7D9gIdVqYBpA%3Bsrc%3D8240768%3Btype%3Dwhirl0%3Bcat%3Dwhp_d0%3Bord%3D1%3Bnum%3D2654115565947%3Bgtm%3D2od3u0%3Bauiddc%3D750618292.1649030953%3Bu16%3DDSK%3B~oref%3Dhttps%253A%252F%252Fwww.whirlpool.com%252Fregistration.html%3F&c=1649030957075",
-      "time" : {
-        "start" : 1649030960057,
-        "stop" : 1649030960057,
+        "start" : 1649099717589,
+        "stop" : 1649099717589,
         "duration" : 0
       },
       "status" : "passed",
@@ -486,9 +441,9 @@
     }, {
       "name" : "wait 2500",
       "time" : {
-        "start" : 1649030960057,
-        "stop" : 1649030962608,
-        "duration" : 2551
+        "start" : 1649099717590,
+        "stop" : 1649099720094,
+        "duration" : 2504
       },
       "status" : "passed",
       "steps" : [ ],
@@ -499,10 +454,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_eDuknKRSFcMFRA2&Q_CLIENTVERSION=1.68.0&Q_CLIENTTYPE=webAdobeLaunch",
+      "name" : "POST 200 https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_eDuknKRSFcMFRA2&Q_CLIENTVERSION=1.68.0&Q_CLIENTTYPE=webAdobeLaunch",
       "time" : {
-        "start" : 1649030962608,
-        "stop" : 1649030962608,
+        "start" : 1649099720094,
+        "stop" : 1649099720094,
         "duration" : 0
       },
       "status" : "passed",
@@ -516,8 +471,8 @@
     }, {
       "name" : "GET 200 https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php?Module=SI_bKJfNNNvW50MmV0&Version=10&Q_ORIGIN=https://www.whirlpool.com&Q_CLIENTVERSION=1.68.0&Q_CLIENTTYPE=webAdobeLaunch",
       "time" : {
-        "start" : 1649030962608,
-        "stop" : 1649030962608,
+        "start" : 1649099720094,
+        "stop" : 1649099720094,
         "duration" : 0
       },
       "status" : "passed",
@@ -531,8 +486,8 @@
     }, {
       "name" : "GET 200 https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php?Module=CR_bNoFurR14QJLDJI&Version=9&Q_InterceptID=SI_bKJfNNNvW50MmV0&Q_ORIGIN=https://www.whirlpool.com&Q_CLIENTVERSION=1.68.0&Q_CLIENTTYPE=webAdobeLaunch",
       "time" : {
-        "start" : 1649030962608,
-        "stop" : 1649030962608,
+        "start" : 1649099720094,
+        "stop" : 1649099720094,
         "duration" : 0
       },
       "status" : "passed",
@@ -544,40 +499,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST 200 https://siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_Impress=1&Q_CID=CR_bNoFurR14QJLDJI&Q_SIID=SI_bKJfNNNvW50MmV0&Q_ASID=AS_78636872&Q_CLIENTVERSION=1.68.0&Q_CLIENTTYPE=webAdobeLaunch&r=1649030961506",
+      "name" : "POST 200 https://siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_Impress=1&Q_CID=CR_bNoFurR14QJLDJI&Q_SIID=SI_bKJfNNNvW50MmV0&Q_ASID=AS_78636872&Q_CLIENTVERSION=1.68.0&Q_CLIENTTYPE=webAdobeLaunch&r=1649099718609",
       "time" : {
-        "start" : 1649030962608,
-        "stop" : 1649030962608,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "POST https://usecag.apm.whirlpool.com:9999/bf/3a11b03f-898c-4f96-a68c-8d2127f6c841?type=js3&sn=v_4_srv_4_sn_CI9BF7AHQU53D2EV7N6DNRS0UO3GFKVV_app-3A8940938db397b1e7_1_ol_0_perc_100000_mul_1_rcs-3Acss_0&svrid=4&flavor=cors&vi=TKPWCHBIBIRIFROLURFLMHVPMIHOAUHP-0&modifiedSince=1648163649300&rf=https://www.whirlpool.com/registration.html&bp=3&app=8940938db397b1e7&crc=3733926028&en=0xvoc7b3&end=1",
-      "time" : {
-        "start" : 1649030962608,
-        "stop" : 1649030962608,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "POST 200 https://usecag.apm.whirlpool.com:9999/bf/3a11b03f-898c-4f96-a68c-8d2127f6c841?type=js3&sn=v_4_srv_4_sn_CI9BF7AHQU53D2EV7N6DNRS0UO3GFKVV_app-3A8940938db397b1e7_1_ol_0_perc_100000_mul_1_rcs-3Acss_0&svrid=4&flavor=cors&vi=TKPWCHBIBIRIFROLURFLMHVPMIHOAUHP-0&modifiedSince=1648163649300&rf=https%3A%2F%2Fwww.whirlpool.com%2Fregistration.html&bp=3&app=8940938db397b1e7&crc=3733926028&en=0xvoc7b3&end=1",
-      "time" : {
-        "start" : 1649030962608,
-        "stop" : 1649030962608,
+        "start" : 1649099720094,
+        "stop" : 1649099720094,
         "duration" : 0
       },
       "status" : "passed",
@@ -591,9 +516,9 @@
     }, {
       "name" : "get body",
       "time" : {
-        "start" : 1649030962608,
-        "stop" : 1649030962620,
-        "duration" : 12
+        "start" : 1649099720094,
+        "stop" : 1649099720104,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -606,9 +531,9 @@
     }, {
       "name" : "get #firstName",
       "time" : {
-        "start" : 1649030962621,
-        "stop" : 1649030962671,
-        "duration" : 50
+        "start" : 1649099720105,
+        "stop" : 1649099720125,
+        "duration" : 20
       },
       "status" : "passed",
       "steps" : [ ],
@@ -621,9 +546,39 @@
     }, {
       "name" : "type Emiliya",
       "time" : {
-        "start" : 1649030962671,
-        "stop" : 1649030963641,
-        "duration" : 970
+        "start" : 1649099720125,
+        "stop" : 1649099720676,
+        "duration" : 551
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://usecag.apm.whirlpool.com:9999/bf/3a11b03f-898c-4f96-a68c-8d2127f6c841?type=js3&sn=v_4_srv_4_sn_7LP8J77IAO5MOUA1D24H3TM1DNAI80QR_app-3A8940938db397b1e7_1_ol_0_perc_100000_mul_1_rcs-3Acss_0&svrid=4&flavor=cors&vi=NKAVKJUPBRHHWPSBKMGOMICJDCNSBKWV-0&modifiedSince=1649097508486&rf=https://www.whirlpool.com/registration.html&bp=3&app=8940938db397b1e7&crc=2372624298&en=0xvoc7b3&end=1",
+      "time" : {
+        "start" : 1649099720676,
+        "stop" : 1649099720676,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://usecag.apm.whirlpool.com:9999/bf/3a11b03f-898c-4f96-a68c-8d2127f6c841?type=js3&sn=v_4_srv_4_sn_7LP8J77IAO5MOUA1D24H3TM1DNAI80QR_app-3A8940938db397b1e7_1_ol_0_perc_100000_mul_1_rcs-3Acss_0&svrid=4&flavor=cors&vi=NKAVKJUPBRHHWPSBKMGOMICJDCNSBKWV-0&modifiedSince=1649097508486&rf=https%3A%2F%2Fwww.whirlpool.com%2Fregistration.html&bp=3&app=8940938db397b1e7&crc=2372624298&en=0xvoc7b3&end=1",
+      "time" : {
+        "start" : 1649099720676,
+        "stop" : 1649099720676,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -636,9 +591,9 @@
     }, {
       "name" : "get #lastName",
       "time" : {
-        "start" : 1649030963642,
-        "stop" : 1649030963677,
-        "duration" : 35
+        "start" : 1649099720676,
+        "stop" : 1649099720694,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -651,9 +606,9 @@
     }, {
       "name" : "type Vuntsova",
       "time" : {
-        "start" : 1649030963677,
-        "stop" : 1649030964349,
-        "duration" : 672
+        "start" : 1649099720694,
+        "stop" : 1649099721249,
+        "duration" : 555
       },
       "status" : "passed",
       "steps" : [ ],
@@ -664,40 +619,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST 204 https://c.contentsquare.net/v2/events?v=11.15.1&sr=55&mdh=3499&pn=1&uu=b67076c9-8a83-aeb7-8ce4-0ef62ac943e1&sn=1&lv=1649030956&lhd=1649030956&hd=1649030956&pid=4541&str=31&di=1686&dc=8898&fl=8955&ct=1",
+      "name" : "POST 204 https://c.contentsquare.net/v2/events?v=11.15.1&sr=54&mdh=3529&pn=1&uu=ea32bd82-8a83-a55d-cb66-e372c2cccd46&sn=1&lv=1649099716&lhd=1649099716&hd=1649099716&pid=4541&str=26&di=1394&dc=6021&fl=6078&ct=1",
       "time" : {
-        "start" : 1649030964348,
-        "stop" : 1649030964348,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "POST https://usecag.apm.whirlpool.com:9999/bf/3a11b03f-898c-4f96-a68c-8d2127f6c841?type=js3&sn=v_4_srv_4_sn_CI9BF7AHQU53D2EV7N6DNRS0UO3GFKVV_app-3A8940938db397b1e7_1_ol_0_perc_100000_mul_1_rcs-3Acss_0&svrid=4&flavor=cors&vi=TKPWCHBIBIRIFROLURFLMHVPMIHOAUHP-0&modifiedSince=1648163649300&rf=https://www.whirlpool.com/registration.html&bp=3&app=8940938db397b1e7&crc=759380635&en=0xvoc7b3&end=1",
-      "time" : {
-        "start" : 1649030964349,
-        "stop" : 1649030964349,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "POST 200 https://usecag.apm.whirlpool.com:9999/bf/3a11b03f-898c-4f96-a68c-8d2127f6c841?type=js3&sn=v_4_srv_4_sn_CI9BF7AHQU53D2EV7N6DNRS0UO3GFKVV_app-3A8940938db397b1e7_1_ol_0_perc_100000_mul_1_rcs-3Acss_0&svrid=4&flavor=cors&vi=TKPWCHBIBIRIFROLURFLMHVPMIHOAUHP-0&modifiedSince=1648163649300&rf=https%3A%2F%2Fwww.whirlpool.com%2Fregistration.html&bp=3&app=8940938db397b1e7&crc=759380635&en=0xvoc7b3&end=1",
-      "time" : {
-        "start" : 1649030964349,
-        "stop" : 1649030964349,
+        "start" : 1649099721249,
+        "stop" : 1649099721249,
         "duration" : 0
       },
       "status" : "passed",
@@ -711,9 +636,9 @@
     }, {
       "name" : "get #emailAddress",
       "time" : {
-        "start" : 1649030964349,
-        "stop" : 1649030964375,
-        "duration" : 26
+        "start" : 1649099721249,
+        "stop" : 1649099721267,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -726,9 +651,9 @@
     }, {
       "name" : "type fake9s5487@email.com",
       "time" : {
-        "start" : 1649030964375,
-        "stop" : 1649030965109,
-        "duration" : 734
+        "start" : 1649099721267,
+        "stop" : 1649099721960,
+        "duration" : 693
       },
       "status" : "passed",
       "steps" : [ ],
@@ -739,10 +664,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST 204 https://c.contentsquare.net/v2/events?v=11.15.1&sr=57&mdh=3529&pn=1&uu=b67076c9-8a83-aeb7-8ce4-0ef62ac943e1&sn=1&lv=1649030956&lhd=1649030956&hd=1649030956&pid=4541&str=31&di=1686&dc=8898&fl=8955&ct=1",
+      "name" : "POST 204 https://c.contentsquare.net/v2/events?v=11.15.1&sr=57&mdh=3529&pn=1&uu=ea32bd82-8a83-a55d-cb66-e372c2cccd46&sn=1&lv=1649099716&lhd=1649099716&hd=1649099716&pid=4541&str=26&di=1394&dc=6021&fl=6078&ct=1",
       "time" : {
-        "start" : 1649030965109,
-        "stop" : 1649030965109,
+        "start" : 1649099721960,
+        "stop" : 1649099721960,
         "duration" : 0
       },
       "status" : "passed",
@@ -756,9 +681,9 @@
     }, {
       "name" : "get #emailAddressConfirmation",
       "time" : {
-        "start" : 1649030965109,
-        "stop" : 1649030965131,
-        "duration" : 22
+        "start" : 1649099721960,
+        "stop" : 1649099721986,
+        "duration" : 26
       },
       "status" : "passed",
       "steps" : [ ],
@@ -771,9 +696,9 @@
     }, {
       "name" : "type fake9s5487@email.com",
       "time" : {
-        "start" : 1649030965131,
-        "stop" : 1649030965848,
-        "duration" : 717
+        "start" : 1649099721986,
+        "stop" : 1649099722833,
+        "duration" : 847
       },
       "status" : "passed",
       "steps" : [ ],
@@ -784,10 +709,40 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST 204 https://c.contentsquare.net/v2/events?v=11.15.1&sr=59&mdh=3529&pn=1&uu=b67076c9-8a83-aeb7-8ce4-0ef62ac943e1&sn=1&lv=1649030956&lhd=1649030956&hd=1649030956&pid=4541&str=31&di=1686&dc=8898&fl=8955&ct=1",
+      "name" : "POST 204 https://c.contentsquare.net/v2/events?v=11.15.1&sr=59&mdh=3529&pn=1&uu=ea32bd82-8a83-a55d-cb66-e372c2cccd46&sn=1&lv=1649099716&lhd=1649099716&hd=1649099716&pid=4541&str=26&di=1394&dc=6021&fl=6078&ct=1",
       "time" : {
-        "start" : 1649030965847,
-        "stop" : 1649030965847,
+        "start" : 1649099722832,
+        "stop" : 1649099722832,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://usecag.apm.whirlpool.com:9999/bf/3a11b03f-898c-4f96-a68c-8d2127f6c841?type=js3&sn=v_4_srv_4_sn_7LP8J77IAO5MOUA1D24H3TM1DNAI80QR_app-3A8940938db397b1e7_1_ol_0_perc_100000_mul_1_rcs-3Acss_0&svrid=4&flavor=cors&vi=NKAVKJUPBRHHWPSBKMGOMICJDCNSBKWV-0&modifiedSince=1649097508486&rf=https://www.whirlpool.com/registration.html&bp=3&app=8940938db397b1e7&crc=370282530&en=0xvoc7b3&end=1",
+      "time" : {
+        "start" : 1649099722833,
+        "stop" : 1649099722833,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://usecag.apm.whirlpool.com:9999/bf/3a11b03f-898c-4f96-a68c-8d2127f6c841?type=js3&sn=v_4_srv_4_sn_7LP8J77IAO5MOUA1D24H3TM1DNAI80QR_app-3A8940938db397b1e7_1_ol_0_perc_100000_mul_1_rcs-3Acss_0&svrid=4&flavor=cors&vi=NKAVKJUPBRHHWPSBKMGOMICJDCNSBKWV-0&modifiedSince=1649097508486&rf=https%3A%2F%2Fwww.whirlpool.com%2Fregistration.html&bp=3&app=8940938db397b1e7&crc=370282530&en=0xvoc7b3&end=1",
+      "time" : {
+        "start" : 1649099722833,
+        "stop" : 1649099722833,
         "duration" : 0
       },
       "status" : "passed",
@@ -801,9 +756,9 @@
     }, {
       "name" : "get #password",
       "time" : {
-        "start" : 1649030965848,
-        "stop" : 1649030965867,
-        "duration" : 19
+        "start" : 1649099722833,
+        "stop" : 1649099722856,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -816,9 +771,9 @@
     }, {
       "name" : "get #passwordConfirmation",
       "time" : {
-        "start" : 1649030966574,
-        "stop" : 1649030966600,
-        "duration" : 26
+        "start" : 1649099723405,
+        "stop" : 1649099723423,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -831,9 +786,9 @@
     }, {
       "name" : "get :nth-child(1) > .registration-form__checkbox-container > .registration-form__check-mark",
       "time" : {
-        "start" : 1649030967298,
-        "stop" : 1649030967326,
-        "duration" : 28
+        "start" : 1649099723921,
+        "stop" : 1649099723941,
+        "duration" : 20
       },
       "status" : "passed",
       "steps" : [ ],
@@ -846,9 +801,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1649030967326,
-        "stop" : 1649030967726,
-        "duration" : 400
+        "start" : 1649099723941,
+        "stop" : 1649099724264,
+        "duration" : 323
       },
       "status" : "passed",
       "steps" : [ ],
@@ -861,9 +816,9 @@
     }, {
       "name" : "get :nth-child(2) > .registration-form__checkbox-container > .registration-form__check-mark",
       "time" : {
-        "start" : 1649030967726,
-        "stop" : 1649030967749,
-        "duration" : 23
+        "start" : 1649099724264,
+        "stop" : 1649099724286,
+        "duration" : 22
       },
       "status" : "passed",
       "steps" : [ ],
@@ -876,9 +831,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1649030967749,
-        "stop" : 1649030968182,
-        "duration" : 433
+        "start" : 1649099724286,
+        "stop" : 1649099724614,
+        "duration" : 328
       },
       "status" : "passed",
       "steps" : [ ],
@@ -889,10 +844,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST https://c.contentsquare.net/v2/events?v=11.15.1&sr=70&mdh=3529&pn=1&uu=b67076c9-8a83-aeb7-8ce4-0ef62ac943e1&sn=1&lv=1649030956&lhd=1649030956&hd=1649030956&pid=4541&str=31&di=1686&dc=8898&fl=8955&ct=1",
+      "name" : "POST https://c.contentsquare.net/v2/events?v=11.15.1&sr=70&mdh=3529&pn=1&uu=ea32bd82-8a83-a55d-cb66-e372c2cccd46&sn=1&lv=1649099716&lhd=1649099716&hd=1649099716&pid=4541&str=26&di=1394&dc=6021&fl=6078&ct=1",
       "time" : {
-        "start" : 1649030968182,
-        "stop" : 1649030968182,
+        "start" : 1649099724614,
+        "stop" : 1649099724614,
         "duration" : 0
       },
       "status" : "passed",
@@ -906,9 +861,39 @@
     }, {
       "name" : "get .registration-form__cta-btn > .button",
       "time" : {
-        "start" : 1649030968182,
-        "stop" : 1649030968208,
-        "duration" : 26
+        "start" : 1649099724614,
+        "stop" : 1649099724639,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .breadcrumbs-list-item-last",
+      "time" : {
+        "start" : 1649099724640,
+        "stop" : 1649099724669,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<li.breadcrumbs-list-item.breadcrumbs-list-item-last>** to be **visible**",
+      "time" : {
+        "start" : 1649099724669,
+        "stop" : 1649099724669,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -921,7 +906,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 60,
+    "stepsCount" : 59,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -936,12 +921,22 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c62d70bd119fb0ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649097856309,
+        "stop" : 1649097874417,
+        "duration" : 18108
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a00aa18f908659e8.json",
+  "source" : "809d95c5bb133ed3.json",
   "parameterValues" : [ ]
 }

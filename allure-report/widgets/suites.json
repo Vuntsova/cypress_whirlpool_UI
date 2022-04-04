@@ -4,10 +4,10 @@
     "uid" : "c3ecff216bf67638facf1a827f3d5482",
     "name" : "Log In",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 5,
       "unknown" : 0,
       "total" : 6
     }

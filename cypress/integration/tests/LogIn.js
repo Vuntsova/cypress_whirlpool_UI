@@ -65,12 +65,13 @@ describe('Log In', () => {
   });
 
   //Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.	Positive Test
-  it('Checks if the "Enter" key of the keyboard is working', () => {
-    cy.get('#headerSigninEmail').type(Cypress.env('emailAddress'));
-    cy.get('#modalSigninPassword').type(Cypress.env('password'), {
-      log: false,
-    });
-    cy.get('#modalSigninPassword').type('{enter}');
-    cy.get('.breadcrumbs-list-item-last').should('be.visible');
-  });
+  // it('Checks if the "Enter" key of the keyboard is working', () => {
+  //   cy.get('#headerSigninEmail').type(Cypress.env('emailAddress'));
+  //   cy.get('#modalSigninPassword').type(Cypress.env('password'), {
+  //     log: false,
+  //   });
+  //   cy.get('#modalSigninPassword').type('{enter}');
+  //   //failing this to test allure
+  //   cy.get('.breadcrumbs-list-item-last').should('not.be.visible');
+  // });
 });

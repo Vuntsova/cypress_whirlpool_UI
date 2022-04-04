@@ -1,70 +1,70 @@
 [ {
-  "uid" : "dd72ac3cb2ef006",
-  "name" : "Checks if the \"Enter\" key of the keyboard is working",
-  "time" : {
-    "start" : 1649031178963,
-    "stop" : 1649031196450,
-    "duration" : 17487
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be54bdf8c3021580",
-  "name" : "Checks messages for invalid login",
-  "time" : {
-    "start" : 1649031163867,
-    "stop" : 1649031178905,
-    "duration" : 15038
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a025cc71ebee08e9",
-  "name" : "successfully signing in",
-  "time" : {
-    "start" : 1649031214117,
-    "stop" : 1649031232588,
-    "duration" : 18471
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3fda78f0ee3342d2",
-  "name" : "Successfully logging in with a valid username and valid password",
-  "time" : {
-    "start" : 1649031094920,
-    "stop" : 1649031121516,
-    "duration" : 26596
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "22a59e2722dc9308",
-  "name" : "Checks \"Forgot Password\" functionality",
-  "time" : {
-    "start" : 1649031149512,
-    "stop" : 1649031163712,
-    "duration" : 14200
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fb3c78c24eef821d",
-  "name" : "Unsuccessful logging atempt when the email field is blank and Submit button is clicked",
-  "time" : {
-    "start" : 1649031137937,
-    "stop" : 1649031149440,
-    "duration" : 11503
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a281bbefce82f4bc",
+  "uid" : "d51521a6a9541bca",
   "name" : "Unsuccessful  logging atempt when a valid username and invalid password are provided",
   "time" : {
-    "start" : 1649031121614,
-    "stop" : 1649031137872,
-    "duration" : 16258
+    "start" : 1649099628642,
+    "stop" : 1649099647493,
+    "duration" : 18851
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70b13a054b2da779",
+  "name" : "Checks messages for invalid login",
+  "time" : {
+    "start" : 1649099679180,
+    "stop" : 1649099693909,
+    "duration" : 14729
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcdb8571edfbe737",
+  "name" : "Successfully logging in with a valid username and valid password",
+  "time" : {
+    "start" : 1649099598140,
+    "stop" : 1649099628295,
+    "duration" : 30155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9bdaccf8e75b1cd",
+  "name" : "Unsuccessful logging atempt when the email field is blank and Submit button is clicked",
+  "time" : {
+    "start" : 1649099647604,
+    "stop" : 1649099660914,
+    "duration" : 13310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86b1f599e5a775d0",
+  "name" : "Checks if the \"Enter\" key of the keyboard is working",
+  "time" : {
+    "start" : 1649097794413,
+    "stop" : 1649097827731,
+    "duration" : 33318
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "809d95c5bb133ed3",
+  "name" : "successfully signing in",
+  "time" : {
+    "start" : 1649099709921,
+    "stop" : 1649099724674,
+    "duration" : 14753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4debd6b6ef2b034",
+  "name" : "Checks \"Forgot Password\" functionality",
+  "time" : {
+    "start" : 1649099661094,
+    "stop" : 1649099679068,
+    "duration" : 17974
   },
   "status" : "passed",
   "severity" : "normal"

@@ -23,7 +23,7 @@ describe('Log In', () => {
       log: false,
     });
     cy.get('#login-form > .form-buttons > .form-button').click();
-
+    
     //Validate Successfull LogIn
     cy.get('.breadcrumbs-list-item-last').should('be.visible');
   });

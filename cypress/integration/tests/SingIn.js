@@ -29,7 +29,19 @@ describe('Sign In', () => {
     cy.get(
       ':nth-child(2) > .registration-form__checkbox-container > .registration-form__check-mark'
     ).click();
+      Cypress.Commands.add('confirmCaptcha', function () {
+        cy.get('iframe')
+          .first()
+          .then((recaptchaIframe) => {
+            const body = recaptchaIframe.contents();
+            cy.wrap(body)
+              .find('.recaptcha-checkbox-border')
+              .should('be.visible')
+              .click();
+          });
+      });
 
     cy.get('.registration-form__cta-btn > .button').click;
+    cy.get('.breadcrumbs-list-item-last').should('be.visible');
   })
 })

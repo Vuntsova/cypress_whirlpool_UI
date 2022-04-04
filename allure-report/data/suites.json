@@ -1,0 +1,132 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Log In",
+    "children" : [ {
+      "name" : "Successfully logging in with a valid username and valid password",
+      "uid" : "3fda78f0ee3342d2",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649031094920,
+        "stop" : 1649031121516,
+        "duration" : 26596
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Unsuccessful  logging atempt when a valid username and invalid password are provided",
+      "uid" : "a281bbefce82f4bc",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649031121614,
+        "stop" : 1649031137872,
+        "duration" : 16258
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Unsuccessful logging atempt when the email field is blank and Submit button is clicked",
+      "uid" : "fb3c78c24eef821d",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649031137937,
+        "stop" : 1649031149440,
+        "duration" : 11503
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Checks \"Forgot Password\" functionality",
+      "uid" : "22a59e2722dc9308",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649031149512,
+        "stop" : 1649031163712,
+        "duration" : 14200
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Checks messages for invalid login",
+      "uid" : "be54bdf8c3021580",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649031163867,
+        "stop" : 1649031178905,
+        "duration" : 15038
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Checks if the \"Enter\" key of the keyboard is working",
+      "uid" : "dd72ac3cb2ef006",
+      "parentUid" : "c3ecff216bf67638facf1a827f3d5482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649031178963,
+        "stop" : 1649031196450,
+        "duration" : 17487
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c3ecff216bf67638facf1a827f3d5482"
+  }, {
+    "name" : "Sign In",
+    "children" : [ {
+      "name" : "successfully signing in",
+      "uid" : "a025cc71ebee08e9",
+      "parentUid" : "cca9531d5f95cf7ac10bdb88369108ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649031214117,
+        "stop" : 1649031232588,
+        "duration" : 18471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cca9531d5f95cf7ac10bdb88369108ea"
+  } ]
+}

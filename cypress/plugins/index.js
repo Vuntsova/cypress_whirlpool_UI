@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+/// <reference types="@shelex/cypress-allure-plugin" />
 // ***********************************************************
 // This example plugins/index.js can be used to load plugins
 //
@@ -16,11 +17,14 @@
  * @type {Cypress.PluginConfig}
  */
 // eslint-disable-next-line no-unused-vars
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 module.exports = (on, config) => {
   //workaround cypress.env.json file that wasn't overwrting cypress.json
   if (config.hasOwnProperty('env')) {
     config = config.env;
-  }
+  };
+
+  allureWriter(on, config);
   return config;
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
